@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "title": "AVR-bench",
+    "subtitle": "A Benchmark for Evaluating Automated Vulnerability Repair",
+    "year": 2025,
+    "lastUpdated": "2025-01-20"
+  },
+  "links": {
+    "paper": "https://arxiv.org/abs/xxxx.xxxxx",
+    "code": "https://github.com/your-org/avr-bench",
+    "data": "https://huggingface.co/datasets/your-org/avr-bench",
+    "submit": "https://github.com/your-org/avr-bench/issues/new"
+  },
+  "content": {
+    "about": {
+      "title": "About AVR-bench",
+      "description": "AVR-bench is a comprehensive benchmark for evaluating AI models' capabilities in automated vulnerability repair. We focus on assessing how well models can detect and fix real-world software vulnerabilities across multiple programming languages.",
+      "coverage": "Our benchmark covers various models across Go, Python, and Node.js ecosystems, providing a standardized evaluation platform for the research community with real-world vulnerabilities from open-source projects.",
+      "featuresTitle": "Key Features",
+      "features": [
+        "Cross-language vulnerability repair assessment",
+        "Real-world vulnerability datasets from open-source projects",
+        "Standardized evaluation metrics and procedures",
+        "Continuously updated model leaderboard",
+        "Open-source evaluation framework"
+      ]
+    },
+    "cite": {
+      "title": "How to Cite",
+      "description": "If you use AVR-bench in your research or projects, please consider citing our work:",
+      "copyButton": "Copy Citation",
+      "githubButton": "View GitHub",
+      "bibtex": {
+        "title": "AVR-bench: A Comprehensive Benchmark for Automated Vulnerability Repair",
+        "author": "ByteDance Research Team and Huazhong University of Science and Technology"
+      }
+    },
+    "footer": {
+      "partners": "Partners: ByteDance & Huazhong University of Science and Technology"
+    }
+  },
+  "models": [
+    {
+      "verified": true,
+      "open_source": true,
+      "object_name": "CodeRepairGPT-4",
+      "score": 87.50,
+      "score_go": 85.20,
+      "score_python": 89.30,
+      "score_nodejs": 88.00,
+      "organization": "OpenAI",
+      "date": "2025-01-15",
+      "site": "https://openai.com/coderepair",
+      "logs": "https://huggingface.co/logs/coderepair-gpt4",
+      "trajs": "https://github.com/openai/coderepair-trajectories"
+    },
+    {
+      "verified": true,
+      "open_source": false,
+      "object_name": "VulnFix-Pro",
+      "score": 82.30,
+      "score_go": 80.50,
+      "score_python": 84.20,
+      "score_nodejs": 82.20,
+      "organization": "Google DeepMind",
+      "date": "2025-01-28",
+      "site": "https://deepmind.google/vulnfix",
+      "logs": "https://huggingface.co/logs/vulnfix-pro",
+      "trajs": "https://github.com/deepmind/vulnfix-trajectories"
+    },
+    {
+      "verified": true,
+      "open_source": true,
+      "object_name": "SecurePatch-Llama",
+      "score": 79.80,
+      "score_go": 77.90,
+      "score_python": 81.50,
+      "score_nodejs": 80.00,
+      "organization": "Meta",
+      "date": "2025-01-20",
+      "site": "https://ai.meta.com/securepatch",
+      "logs": "https://huggingface.co/logs/securepatch-llama",
+      "trajs": "https://github.com/meta/securepatch-trajectories"
+    },
+    {
+      "verified": false,
+      "open_source": true,
+      "object_name": "BugFix-BERT",
+      "score": 75.20,
+      "score_go": 73.80,
+      "score_python": 76.90,
+      "score_nodejs": 74.90,
+      "organization": "Microsoft Research",
+      "date": "2025-01-01",
+      "site": "https://microsoft.com/bugfix-bert",
+      "logs": "https://huggingface.co/logs/bugfix-bert",
+      "trajs": "https://github.com/microsoft/bugfix-trajectories"
+    },
+    {
+      "verified": true,
+      "open_source": false,
+      "object_name": "AutoVuln-Repair",
+      "score": 71.60,
+      "score_go": 69.40,
+      "score_python": 73.80,
+      "score_nodejs": 71.50,
+      "organization": "ByteDance",
+      "date": "2025-01-10",
+      "site": "https://bytedance.com/autovuln",
+      "logs": "https://huggingface.co/logs/autovuln-repair",
+      "trajs": "https://github.com/bytedance/autovuln-trajectories"
+    },
+    {
+      "verified": true,
+      "open_source": true,
+      "object_name": "VulnScanner-2.0",
+      "score": 68.90,
+      "score_go": 66.70,
+      "score_python": 71.20,
+      "score_nodejs": 68.80,
+      "organization": "HUST",
+      "date": "2025-01-15",
+      "site": "https://hust.edu.cn/vulnscanner",
+      "logs": "https://huggingface.co/logs/vulnscanner-2.0",
+      "trajs": "https://github.com/hust/vulnscanner-trajectories"
+    },
+    {
+      "verified": false,
+      "open_source": true,
+      "object_name": "CodeShield",
+      "score": 65.30,
+      "score_go": 63.10,
+      "score_python": 67.50,
+      "score_nodejs": 65.30,
+      "organization": "Independent Research",
+      "date": "2025-01-05",
+      "site": "https://github.com/codeshield-team",
+      "logs": "https://huggingface.co/logs/codeshield",
+      "trajs": "https://github.com/codeshield/trajectories"
+    },
+    {
+      "verified": true,
+      "open_source": true,
+      "object_name": "SecureCode-AI",
+      "score": 62.10,
+      "score_go": 59.80,
+      "score_python": 64.40,
+      "score_nodejs": 62.10,
+      "organization": "Alibaba",
+      "date": "2025-01-05",
+      "site": "https://alibaba.com/securecode-ai",
+      "logs": "https://huggingface.co/logs/securecode-ai",
+      "trajs": "https://github.com/alibaba/securecode-trajectories"
+    }
+  ]
+}
